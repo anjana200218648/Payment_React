@@ -1,0 +1,122 @@
+.header{
+  background-color:#000000e2;
+  box-shadow: 0 0 8px rgb(55, 54, 54);
+}
+
+h2{
+  color: #ffffff;
+}
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(255, 74, 2, 0.816);
+padding: 1px 10px;
+border-radius: 2px;
+margin: auto;
+box-shadow: 0 0 10px rgb(32, 32, 32);
+height: 70px;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000cd;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.744);
+   
+   
+  }
+  
+  h1 {
+    color: rgb(236, 67, 0);;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10%;
+  }
+  
+  .form-select,
+  .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    margin-left: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    background-color:  rgb(236, 67, 0);
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.744);
+    border-radius: 10px;
+  }
+  .btn-primary:hover {
+   
+    background-color:  rgba(254, 99, 38, 0.96);
+}
+
+  .bottom{
+    background-color: hwb(0 100% 0%);
+  }
+
+  .table{
+    
+    max-width: 1300px;
+    margin:  auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.744);
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: "center";
+   
+  }
+  .table th {
+    background-color:  #000000c1;
+    color: #fff;
+    border: 1px solid #202020;
+    padding: 8px;
+  }
+  .table td {
+    background-color: rgba(228, 225, 225, 0.748);
+    border: 1px solid #383838;
+    padding: 8px;
+  }
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .btnAction1{
+    width: 40%;
+    background-color: rgba(47, 36, 255, 0.927);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+  
+  }
+  .btnActionOM{
+    background-color: rgb(249, 32, 32);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .valid{
+    color:red;
+    margin-left: 10%;
+  }
+
+  .pdf-btn{
+   
+    margin-left: 88%;
+    width: 5%;
+    background-color: rgb(13, 13, 13);
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(249, 32, 32);
+  }
